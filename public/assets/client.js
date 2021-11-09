@@ -1,5 +1,5 @@
 
-const socket = io.connect(window.location.hostname);
+const socket = io.connect('localhost:8000');
 
 let username = prompt("Enter your name to join");
 while(username == null){
