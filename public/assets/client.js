@@ -1,5 +1,5 @@
 
-const socket = io('http://localhost:8000');
+const socket = io('lit-bayou-68554.herokuapp');
 
 let username = prompt("Enter your name to join");
 while(username == null){
